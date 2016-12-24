@@ -1,0 +1,118 @@
+/**
+ * sw for Sites by ZURB
+ * Version 6.3.0
+ * sw.zurb.com
+ * Licensed under MIT Open Source
+ */
+
+ // Dependencies
+ @import "../_vendor/normalize-scss/sass/normalize";
+ @import '../_vendor/sassy-lists/stylesheets/helpers/missing-dependencies';
+ @import '../_vendor/sassy-lists/stylesheets/helpers/true';
+ @import '../_vendor/sassy-lists/stylesheets/functions/purge';
+ @import '../_vendor/sassy-lists/stylesheets/functions/remove';
+ @import '../_vendor/sassy-lists/stylesheets/functions/replace';
+ @import '../_vendor/sassy-lists/stylesheets/functions/to-list';
+
+// Settings
+// import your own `settings` here or
+// import and modify the default settings through
+@import "settings/settings";
+
+// Sass utilities
+@import 'util/util';
+
+// Global variables and styles
+@import 'global';
+
+// Components
+@import 'grid/grid';
+@import 'typography/typography';
+@import 'forms/forms';
+@import 'components/visibility';
+@import 'components/float';
+@import 'components/button';
+@import 'components/button-group';
+@import 'components/accordion-menu';
+@import 'components/accordion';
+@import 'components/badge';
+@import 'components/breadcrumbs';
+@import 'components/callout';
+@import 'components/card';
+@import 'components/close-button';
+@import 'components/drilldown';
+@import 'components/dropdown-menu';
+@import 'components/dropdown';
+@import 'components/flex';
+@import 'components/responsive-embed';
+@import 'components/label';
+@import 'components/media-object';
+@import 'components/menu';
+@import 'components/menu-icon';
+@import 'components/off-canvas';
+@import 'components/orbit';
+@import 'components/pagination';
+@import 'components/progress-bar';
+@import 'components/reveal';
+@import 'components/slider';
+@import 'components/sticky';
+@import 'components/switch';
+@import 'components/table';
+@import 'components/tabs';
+@import 'components/title-bar';
+@import 'components/top-bar';
+@import 'components/thumbnail';
+@import 'components/tooltip';
+
+@mixin sw-everything($flex: false) {
+  @if $flex {
+    $global-flexbox: true !global;
+  }
+
+  @include sw-global-styles;
+  @if not $flex {
+    @include sw-grid;
+  }
+  @else {
+    @include sw-flex-grid;
+  }
+  @include sw-typography;
+  @include sw-forms;
+  @include sw-button;
+  @include sw-accordion;
+  @include sw-accordion-menu;
+  @include sw-badge;
+  @include sw-breadcrumbs;
+  @include sw-button-group;
+  @include sw-callout;
+  @include sw-card;
+  @include sw-close-button;
+  @include sw-menu;
+  @include sw-menu-icon;
+  @include sw-drilldown-menu;
+  @include sw-dropdown;
+  @include sw-dropdown-menu;
+  @include sw-responsive-embed;
+  @include sw-label;
+  @include sw-media-object;
+  @include sw-off-canvas;
+  @include sw-orbit;
+  @include sw-pagination;
+  @include sw-progress-bar;
+  @include sw-slider;
+  @include sw-sticky;
+  @include sw-reveal;
+  @include sw-switch;
+  @include sw-table;
+  @include sw-tabs;
+  @include sw-thumbnail;
+  @include sw-title-bar;
+  @include sw-tooltip;
+  @include sw-top-bar;
+  @include sw-visibility-classes;
+  @include sw-float-classes;
+
+  @if $flex {
+    @include sw-flex-classes;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "sudo-framework",
+  "authors": [
+    "Sudo"
+  ],
+  "description": "Web Framework for Sudo – Forged from Foundation from Zurb",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://sudo.org.au",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
