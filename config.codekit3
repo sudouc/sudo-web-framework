@@ -158,6 +158,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/compile-dist\/sudoweb.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/dist\/css\/sudoweb.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/fonts\/Camphor-Bold.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -399,6 +412,22 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/dist\/css\/sudoweb.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/dist\/css\/sudoweb-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.html",
+		"oF": 0
 		},
 	"\/LICENSE": {
 		"ft": 8192,
@@ -1185,9 +1214,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/dist\/css\/sudoweb.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
