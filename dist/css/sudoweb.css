@@ -503,7 +503,7 @@ button {
   display: none !important; }
 
 .row {
-  max-width: 75rem;
+  max-width: 62.5rem;
   margin-right: auto;
   margin-left: auto; }
   .row::before, .row::after {
@@ -1394,7 +1394,7 @@ a {
 
 hr {
   clear: both;
-  max-width: 75rem;
+  max-width: 62.5rem;
   height: 0;
   margin: 1.25rem auto;
   border-top: 0;
@@ -1823,7 +1823,11 @@ select {
       transform: translateY(-1px);
       box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); }
   .button.callout {
-    box-shadow: 0px 3px 40px 0px rgba(20, 72, 96, 0.07), 0px 14px 40px 0px rgba(20, 72, 96, 0.07); }
+    transition: all .15s ease;
+    box-shadow: 0px 3px 20px 0px rgba(20, 72, 96, 0.07), 0px 14px 20px 0px rgba(20, 72, 96, 0.07); }
+    .button.callout:hover {
+      transform: translateY(-3px);
+      box-shadow: 0px 3px 40px 0px rgba(20, 72, 96, 0.12), 0px 14px 40px 0px rgba(20, 72, 96, 0.12); }
   .button:hover, .button:focus {
     background-color: #87a2ff;
     color: #fefefe;
@@ -1900,17 +1904,17 @@ select {
       background-image: -webkit-linear-gradient(11deg, #fb652f 0%, #f33759 100%);
       background-image: -ms-linear-gradient(11deg, #fb652f 0%, #f33759 100%); }
   .button.sudo {
-    background: #4da4ff;
+    background: #8b53ff;
     /* Old browsers */
-    background-image: -moz-linear-gradient(11deg, #4da4ff 0%, #8b53ff 100%);
-    background-image: -webkit-linear-gradient(11deg, #4da4ff 0%, #8b53ff 100%);
-    background-image: -ms-linear-gradient(11deg, #4da4ff 0%, #8b53ff 100%); }
+    background-image: -moz-linear-gradient(11deg, #8b53ff 0%, #4da4ff 100%);
+    background-image: -webkit-linear-gradient(11deg, #8b53ff 0%, #4da4ff 100%);
+    background-image: -ms-linear-gradient(11deg, #8b53ff 0%, #4da4ff 100%); }
     .button.sudo:hover {
-      background: #75a4ff;
+      background: #a553ff;
       /* Old browsers */
-      background-image: -moz-linear-gradient(11deg, #75a4ff 0%, #a553ff 100%);
-      background-image: -webkit-linear-gradient(11deg, #75a4ff 0%, #a553ff 100%);
-      background-image: -ms-linear-gradient(11deg, #75a4ff 0%, #a553ff 100%); }
+      background-image: -moz-linear-gradient(11deg, #a553ff 0%, #75a4ff 100%);
+      background-image: -webkit-linear-gradient(11deg, #a553ff 0%, #75a4ff 100%);
+      background-image: -ms-linear-gradient(11deg, #a553ff 0%, #75a4ff 100%); }
   .button.lime {
     background: #8ebd39;
     /* Old browsers */
@@ -1923,6 +1927,18 @@ select {
       background-image: -moz-linear-gradient(11deg, #a7bd39 0%, #5d8c12 100%);
       background-image: -webkit-linear-gradient(11deg, #a7bd39 0%, #5d8c12 100%);
       background-image: -ms-linear-gradient(11deg, #a7bd39 0%, #5d8c12 100%); }
+  .button.sudobg {
+    background: #911aff;
+    /* Old browsers */
+    background-image: -moz-linear-gradient(11deg, #911aff 0%, #3dc1ff 100%);
+    background-image: -webkit-linear-gradient(11deg, #911aff 0%, #3dc1ff 100%);
+    background-image: -ms-linear-gradient(11deg, #911aff 0%, #3dc1ff 100%); }
+    .button.sudobg:hover {
+      background: #aa1aff;
+      /* Old browsers */
+      background-image: -moz-linear-gradient(11deg, #aa1aff 0%, #69c1ff 100%);
+      background-image: -webkit-linear-gradient(11deg, #aa1aff 0%, #69c1ff 100%);
+      background-image: -ms-linear-gradient(11deg, #aa1aff 0%, #69c1ff 100%); }
   .button.hollow {
     border: 1px solid #7291ff;
     color: #7291ff; }
@@ -2305,7 +2321,7 @@ select {
 .callout {
   position: relative;
   margin: 0 0 1rem 0;
-  padding: 1rem;
+  padding: 2rem 4rem;
   border: none;
   border-radius: 5px;
   background-color: white;
@@ -2317,7 +2333,11 @@ select {
       transform: translateY(-1px);
       box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); }
   .callout.callout {
-    box-shadow: 0px 3px 40px 0px rgba(20, 72, 96, 0.07), 0px 14px 40px 0px rgba(20, 72, 96, 0.07); }
+    transition: all .15s ease;
+    box-shadow: 0px 3px 20px 0px rgba(20, 72, 96, 0.07), 0px 14px 20px 0px rgba(20, 72, 96, 0.07); }
+    .callout.callout:hover {
+      transform: translateY(-3px);
+      box-shadow: 0px 3px 40px 0px rgba(20, 72, 96, 0.12), 0px 14px 40px 0px rgba(20, 72, 96, 0.12); }
   .callout > :first-child {
     margin-top: 0; }
   .callout > :last-child {
@@ -3421,7 +3441,7 @@ html.is-reveal-open body {
   @media print, screen and (min-width: 40em) {
     .reveal {
       width: 600px;
-      max-width: 75rem; } }
+      max-width: 62.5rem; } }
   @media print, screen and (min-width: 40em) {
     .reveal .reveal {
       right: auto;
@@ -3432,15 +3452,15 @@ html.is-reveal-open body {
   @media print, screen and (min-width: 40em) {
     .reveal.tiny {
       width: 30%;
-      max-width: 75rem; } }
+      max-width: 62.5rem; } }
   @media print, screen and (min-width: 40em) {
     .reveal.small {
       width: 50%;
-      max-width: 75rem; } }
+      max-width: 62.5rem; } }
   @media print, screen and (min-width: 40em) {
     .reveal.large {
       width: 90%;
-      max-width: 75rem; } }
+      max-width: 62.5rem; } }
   .reveal.full {
     top: 0;
     left: 0;

@@ -47,7 +47,7 @@
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(1200);
+$global-width: rem-calc(1000);
 $global-lineheight: 1.28;
 $sw-palette: (
   primary: #7291ff,
@@ -75,13 +75,17 @@ $sw-gradient-palette: (
         rgb(240,55,89)
     ),
     "sudo": (
-        #4da4ff,
-        #8b53ff
+        #8b53ff,
+        #4da4ff
     ),
     "lime": (
         #8ebd39,
         #2e8c12
     ),
+    "sudobg": (
+        rgba(145,26,255,1),
+        rgba(61,193,255,1)
+    )
 );
 
 $body-font-family: 'Camphor', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
@@ -297,7 +301,7 @@ $callout-background: $white;
 $callout-background-fade: 85%;
 $callout-border: none;
 $callout-margin: 0 0 1rem 0;
-$callout-padding: 1rem;
+$callout-padding: 2rem 4rem;
 $callout-font-color: $body-font-color;
 $callout-font-color-alt: $body-background;
 $callout-radius: $global-radius;
