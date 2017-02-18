@@ -7,7 +7,7 @@
 		"uuidString": "6D91CC93-D3EE-4C7B-96EA-789946EA8E19"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/.bowerrc": {
 		"ft": 8192,
@@ -1214,7 +1214,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/dist\/css\/sudoweb.css",
 		"oF": 1,
 		"oS": 0,
@@ -1448,9 +1448,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 504240048,
-	"displayValue": "sudo-framework",
+	"displayValue": "framework.sudo.org.au",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-doge"
+	"iconImageName": "meme-doge",
+	"lastBuiltDate": 509073565
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2098,6 +2099,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -2637,6 +2642,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,

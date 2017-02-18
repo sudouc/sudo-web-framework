@@ -1270,6 +1270,78 @@ button {
       .column-block > :last-child {
         margin-bottom: 0; } }
 
+@font-face {
+  font-family: 'Circular Std';
+  src: url("http://sinn.io/fonts/CircularStd-Black.eot");
+  /* IE9 Compat Modes */
+  src: url("http://sinn.io/fonts/CircularStd-Black.eot?#iefix") format("embedded-opentype"), url("http://sinn.io/fonts/CircularStd-Black.woff") format("woff"), url("http://sinn.io/fonts/CircularStd-Black.ttf") format("truetype"), url("http://sinn.io/fonts/CircularStd-Black.svg#69f4a7954d9815defd5c51897ccaf059") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'Circular Std';
+  src: url("http://sinn.io/fonts/CircularStd-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("http://sinn.io/fonts/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("http://sinn.io/fonts/CircularStd-Bold.woff") format("woff"), url("http://sinn.io/fonts/CircularStd-Bold.ttf") format("truetype"), url("http://sinn.io/fonts/CircularStd-Bold.svg#b333381778fc1f96de44d359c7f8b95e") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 600; }
+
+@font-face {
+  font-family: 'Circular Std';
+  src: url("http://sinn.io/fonts/CircularStd-Book.eot");
+  /* IE9 Compat Modes */
+  src: url("http://sinn.io/fonts/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("http://sinn.io/fonts/CircularStd-Book.woff") format("woff"), url("http://sinn.io/fonts/CircularStd-Book.ttf") format("truetype"), url("http://sinn.io/fonts/CircularStd-Book.svg#dd452d63ae05ddb466f19713a7d09fd5") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Circular Std';
+  src: url("http://sinn.io/fonts/CircularStd-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("http://sinn.io/fonts/CircularStd-Medium.eot?#iefix") format("embedded-opentype"), url("http://sinn.io/fonts/CircularStd-Medium.woff") format("woff"), url("http://sinn.io/fonts/CircularStd-Medium.ttf") format("truetype"), url("http://sinn.io/fonts/CircularStd-Medium.svg#a81919819e5d11fb78ee7eadc8883b0d") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'Camphor';
+  src: url("http://sinn.io/fonts/Camphor-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("http://sinn.io/fonts/Camphor-Bold.eot?#iefix") format("embedded-opentype"), url("http://sinn.io/fonts/Camphor-Bold.woff") format("woff"), url("http://sinn.io/fonts/Camphor-Bold.ttf") format("truetype"), url("http://sinn.io/fonts/Camphor-Bold.svg#e37ef20b6d73827754050f31838d5c3f") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'Camphor';
+  src: url("http://sinn.io/fonts/Camphor-Italic.eot");
+  /* IE9 Compat Modes */
+  src: url("http://sinn.io/fonts/Camphor-Italic.eot?#iefix") format("embedded-opentype"), url("http://sinn.io/fonts/Camphor-Italic.woff") format("woff"), url("http://sinn.io/fonts/Camphor-Italic.ttf") format("truetype"), url("http://sinn.io/fonts/Camphor-Italic.svg#4d55836ea2905a4444604079e695d099") format("svg");
+  /* Legacy iOS */
+  font-style: italic;
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Camphor';
+  src: url("http://sinn.io/fonts/Camphor-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("http://sinn.io/fonts/Camphor-Medium.eot?#iefix") format("embedded-opentype"), url("http://sinn.io/fonts/Camphor-Medium.woff") format("woff"), url("http://sinn.io/fonts/Camphor-Medium.ttf") format("truetype"), url("http://sinn.io/fonts/Camphor-Medium.svg#6b43bdc17b879cf69abb31441f00ee33") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'Camphor';
+  src: url("http://sinn.io/fonts/Camphor-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("http://sinn.io/fonts/Camphor-Regular.eot?#iefix") format("embedded-opentype"), url("http://sinn.io/fonts/Camphor-Regular.woff") format("woff"), url("http://sinn.io/fonts/Camphor-Regular.ttf") format("truetype"), url("http://sinn.io/fonts/Camphor-Regular.svg#5c45739fd497033955277a783379a6b5") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+
 div,
 dl,
 dt,
@@ -1957,8 +2029,8 @@ select {
       border: 1px solid #4b4b4b;
       color: #4b4b4b; }
       .button.hollow.secondary:hover, .button.hollow.secondary:focus {
-        border-color: #262626;
-        color: #262626; }
+        border-color: #262525;
+        color: #262525; }
     .button.hollow.success {
       border: 1px solid #6bd584;
       color: #6bd584; }
@@ -1981,8 +2053,8 @@ select {
       border: 1px solid #fff;
       color: #fff; }
       .button.hollow.white:hover, .button.hollow.white:focus {
-        border-color: gray;
-        color: gray; }
+        border-color: #807f7f;
+        color: #807f7f; }
   .button.disabled, .button[disabled] {
     opacity: 0.25;
     cursor: not-allowed; }
@@ -3596,34 +3668,27 @@ table {
   width: 100%;
   margin-bottom: 1rem;
   border-radius: 5px; }
-  table thead,
-  table tbody,
-  table tfoot {
+  thead, tbody, tfoot {
     border: 1px solid #f1f1f1;
     background-color: #fefefe; }
-  table caption {
+  caption {
     padding: 0.5rem 0.625rem 0.625rem;
     font-weight: bold; }
-  table thead {
+  thead {
     background: #f8f8f8;
     color: #0a0a0a; }
-  table tfoot {
+  tfoot {
     background: #f1f1f1;
     color: #0a0a0a; }
-  table thead tr,
-  table tfoot tr {
+  thead tr, tfoot tr {
     background: transparent; }
-  table thead th,
-  table thead td,
-  table tfoot th,
-  table tfoot td {
+  thead th, thead td, tfoot th, tfoot td {
     padding: 0.5rem 0.625rem 0.625rem;
     font-weight: bold;
     text-align: left; }
-  table tbody th,
-  table tbody td {
+  tbody th, tbody td {
     padding: 0.5rem 0.625rem 0.625rem; }
-  table tbody tr:nth-child(even) {
+  tbody tr:nth-child(even) {
     border-bottom: 0;
     background-color: #f1f1f1; }
   table.unstriped tbody {

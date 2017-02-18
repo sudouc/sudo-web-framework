@@ -1,12 +1,12 @@
-@mixin sudo-fonts {
+@mixin sw-fonts {
 
     @font-face {
       font-family: 'Circular Std';
-      src: url('../../assets/fonts/CircularStd-Black.eot'); /* IE9 Compat Modes */
-      src: url('../../assets/fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-           url('../../assets/fonts/CircularStd-Black.woff') format('woff'), /* Modern Browsers */
-           url('../../assets/fonts/CircularStd-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
-           url('../../assets/fonts/CircularStd-Black.svg#69f4a7954d9815defd5c51897ccaf059') format('svg'); /* Legacy iOS */
+      src: url('http://sinn.io/fonts/CircularStd-Black.eot'); /* IE9 Compat Modes */
+      src: url('http://sinn.io/fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('http://sinn.io/fonts/CircularStd-Black.woff') format('woff'), /* Modern Browsers */
+           url('http://sinn.io/fonts/CircularStd-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('http://sinn.io/fonts/CircularStd-Black.svg#69f4a7954d9815defd5c51897ccaf059') format('svg'); /* Legacy iOS */
 
       font-style:   normal;
       font-weight:  700;
@@ -14,11 +14,11 @@
 
     @font-face {
       font-family: 'Circular Std';
-      src: url('../../assets/fonts/CircularStd-Bold.eot'); /* IE9 Compat Modes */
-      src: url('../../assets/fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-           url('../../assets/fonts/CircularStd-Bold.woff') format('woff'), /* Modern Browsers */
-           url('../../assets/fonts/CircularStd-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
-           url('../../assets/fonts/CircularStd-Bold.svg#b333381778fc1f96de44d359c7f8b95e') format('svg'); /* Legacy iOS */
+      src: url('http://sinn.io/fonts/CircularStd-Bold.eot'); /* IE9 Compat Modes */
+      src: url('http://sinn.io/fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('http://sinn.io/fonts/CircularStd-Bold.woff') format('woff'), /* Modern Browsers */
+           url('http://sinn.io/fonts/CircularStd-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('http://sinn.io/fonts/CircularStd-Bold.svg#b333381778fc1f96de44d359c7f8b95e') format('svg'); /* Legacy iOS */
 
       font-style:   normal;
       font-weight:  600;
@@ -26,11 +26,11 @@
 
     @font-face {
       font-family: 'Circular Std';
-      src: url('../../assets/fonts/CircularStd-Book.eot'); /* IE9 Compat Modes */
-      src: url('../../assets/fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-           url('../../assets/fonts/CircularStd-Book.woff') format('woff'), /* Modern Browsers */
-           url('../../assets/fonts/CircularStd-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
-           url('../../assets/fonts/CircularStd-Book.svg#dd452d63ae05ddb466f19713a7d09fd5') format('svg'); /* Legacy iOS */
+      src: url('http://sinn.io/fonts/CircularStd-Book.eot'); /* IE9 Compat Modes */
+      src: url('http://sinn.io/fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('http://sinn.io/fonts/CircularStd-Book.woff') format('woff'), /* Modern Browsers */
+           url('http://sinn.io/fonts/CircularStd-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('http://sinn.io/fonts/CircularStd-Book.svg#dd452d63ae05ddb466f19713a7d09fd5') format('svg'); /* Legacy iOS */
 
       font-style:   normal;
       font-weight:  400;
@@ -38,11 +38,11 @@
 
     @font-face {
       font-family: 'Circular Std';
-      src: url('../../assets/fonts/CircularStd-Medium.eot'); /* IE9 Compat Modes */
-      src: url('../../assets/fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-           url('../../assets/fonts/CircularStd-Medium.woff') format('woff'), /* Modern Browsers */
-           url('../../assets/fonts/CircularStd-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
-           url('../../assets/fonts/CircularStd-Medium.svg#a81919819e5d11fb78ee7eadc8883b0d') format('svg'); /* Legacy iOS */
+      src: url('http://sinn.io/fonts/CircularStd-Medium.eot'); /* IE9 Compat Modes */
+      src: url('http://sinn.io/fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('http://sinn.io/fonts/CircularStd-Medium.woff') format('woff'), /* Modern Browsers */
+           url('http://sinn.io/fonts/CircularStd-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('http://sinn.io/fonts/CircularStd-Medium.svg#a81919819e5d11fb78ee7eadc8883b0d') format('svg'); /* Legacy iOS */
 
       font-style:   normal;
       font-weight:  500;
@@ -51,11 +51,11 @@
 
     @font-face {
       font-family: 'Camphor';
-      src: url('../../assets/fonts/Camphor-Bold.eot'); /* IE9 Compat Modes */
-      src: url('../../assets/fonts/Camphor-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-           url('../../assets/fonts/Camphor-Bold.woff') format('woff'), /* Modern Browsers */
-           url('../../assets/fonts/Camphor-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
-           url('../../assets/fonts/Camphor-Bold.svg#e37ef20b6d73827754050f31838d5c3f') format('svg'); /* Legacy iOS */
+      src: url('http://sinn.io/fonts/Camphor-Bold.eot'); /* IE9 Compat Modes */
+      src: url('http://sinn.io/fonts/Camphor-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('http://sinn.io/fonts/Camphor-Bold.woff') format('woff'), /* Modern Browsers */
+           url('http://sinn.io/fonts/Camphor-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('http://sinn.io/fonts/Camphor-Bold.svg#e37ef20b6d73827754050f31838d5c3f') format('svg'); /* Legacy iOS */
 
       font-style:   normal;
       font-weight:  700;
@@ -63,11 +63,11 @@
 
     @font-face {
       font-family: 'Camphor';
-      src: url('../../assets/fonts/Camphor-Italic.eot'); /* IE9 Compat Modes */
-      src: url('../../assets/fonts/Camphor-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-           url('../../assets/fonts/Camphor-Italic.woff') format('woff'), /* Modern Browsers */
-           url('../../assets/fonts/Camphor-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
-           url('../../assets/fonts/Camphor-Italic.svg#4d55836ea2905a4444604079e695d099') format('svg'); /* Legacy iOS */
+      src: url('http://sinn.io/fonts/Camphor-Italic.eot'); /* IE9 Compat Modes */
+      src: url('http://sinn.io/fonts/Camphor-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('http://sinn.io/fonts/Camphor-Italic.woff') format('woff'), /* Modern Browsers */
+           url('http://sinn.io/fonts/Camphor-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('http://sinn.io/fonts/Camphor-Italic.svg#4d55836ea2905a4444604079e695d099') format('svg'); /* Legacy iOS */
 
       font-style:   italic;
       font-weight:  400;
@@ -75,11 +75,11 @@
 
     @font-face {
       font-family: 'Camphor';
-      src: url('../../assets/fonts/Camphor-Medium.eot'); /* IE9 Compat Modes */
-      src: url('../../assets/fonts/Camphor-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-           url('../../assets/fonts/Camphor-Medium.woff') format('woff'), /* Modern Browsers */
-           url('../../assets/fonts/Camphor-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
-           url('../../assets/fonts/Camphor-Medium.svg#6b43bdc17b879cf69abb31441f00ee33') format('svg'); /* Legacy iOS */
+      src: url('http://sinn.io/fonts/Camphor-Medium.eot'); /* IE9 Compat Modes */
+      src: url('http://sinn.io/fonts/Camphor-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('http://sinn.io/fonts/Camphor-Medium.woff') format('woff'), /* Modern Browsers */
+           url('http://sinn.io/fonts/Camphor-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('http://sinn.io/fonts/Camphor-Medium.svg#6b43bdc17b879cf69abb31441f00ee33') format('svg'); /* Legacy iOS */
 
       font-style:   normal;
       font-weight:  500;
@@ -87,11 +87,11 @@
 
     @font-face {
       font-family: 'Camphor';
-      src: url('../../assets/fonts/Camphor-Regular.eot'); /* IE9 Compat Modes */
-      src: url('../../assets/fonts/Camphor-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-           url('../../assets/fonts/Camphor-Regular.woff') format('woff'), /* Modern Browsers */
-           url('../../assets/fonts/Camphor-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-           url('../../assets/fonts/Camphor-Regular.svg#5c45739fd497033955277a783379a6b5') format('svg'); /* Legacy iOS */
+      src: url('http://sinn.io/fonts/Camphor-Regular.eot'); /* IE9 Compat Modes */
+      src: url('http://sinn.io/fonts/Camphor-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('http://sinn.io/fonts/Camphor-Regular.woff') format('woff'), /* Modern Browsers */
+           url('http://sinn.io/fonts/Camphor-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('http://sinn.io/fonts/Camphor-Regular.svg#5c45739fd497033955277a783379a6b5') format('svg'); /* Legacy iOS */
 
       font-style:   normal;
       font-weight:  400;

@@ -6,6 +6,9 @@
 /// @group typography
 ////
 
+// External Fonts
+@import 'fonts';
+
 // Base typography styles (tags only)
 @import 'base';
 
@@ -19,6 +22,7 @@
 @import 'print';
 
 @mixin sw-typography {
+  @include sw-fonts;
   @include sw-typography-base;
   @include sw-typography-helpers;
   @include sw-text-alignment;
