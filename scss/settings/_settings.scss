@@ -100,6 +100,7 @@ $global-flexbox: false;
 $print-transparent-backgrounds: true;
 
 @include add-sw-colors;
+$font-directory: "assets/fonts";
 
 // 2. Breakpoints
 // --------------
