@@ -413,6 +413,12 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/custom-hosts": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/custom-hosts",
+		"oF": 0
+		},
 	"\/dist\/css\/sudoweb.css": {
 		"aP": 0,
 		"bl": 0,

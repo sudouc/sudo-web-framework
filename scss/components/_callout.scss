@@ -81,7 +81,7 @@ $callout-link-tint: 30% !default;
 /// Adds styles for a callout.
 /// @param {Color} $color [$callout-background] - Color to use.
 @mixin callout($color: $callout-background) {
-    @include sw-shadow;
+  @include sw-shadow;
   @include callout-base;
   @include callout-style($color);
 }
