@@ -19,100 +19,35 @@
 // import and modify the default settings through
 @import "settings/settings";
 
+@import 'typography/typography';
+
 // Sass utilities
 @import 'util/util';
 
 // Global variables and styles
 @import 'global';
 
-// Components
-@import 'grid/grid';
-@import 'typography/typography';
-@import 'forms/forms';
-@import 'components/visibility';
-@import 'components/float';
-@import 'components/button';
-@import 'components/button-group';
-@import 'components/accordion-menu';
-@import 'components/accordion';
-@import 'components/badge';
-@import 'components/breadcrumbs';
-@import 'components/callout';
-@import 'components/card';
-@import 'components/close-button';
-@import 'components/drilldown';
-@import 'components/dropdown-menu';
-@import 'components/dropdown';
-@import 'components/flex';
-@import 'components/responsive-embed';
-@import 'components/label';
-@import 'components/media-object';
-@import 'components/menu';
-@import 'components/menu-icon';
-@import 'components/off-canvas';
-@import 'components/orbit';
-@import 'components/pagination';
-@import 'components/progress-bar';
-@import 'components/reveal';
-@import 'components/slider';
-@import 'components/sticky';
-@import 'components/switch';
-@import 'components/table';
-@import 'components/tabs';
-@import 'components/title-bar';
-@import 'components/top-bar';
-@import 'components/thumbnail';
-@import 'components/tooltip';
+@include foundation-typography;
 
-@mixin sw-everything($flex: false) {
-  @if $flex {
-    $global-flexbox: true !global;
-  }
+@mixin sw-gradient($name, $hover: true){
+ $color1: nth(map-get($sw-gradient-palette, $name), 1);
+ $color2: nth(map-get($sw-gradient-palette, $name), 2);
 
-  @include sw-global-styles;
-  @if not $flex {
-    @include sw-grid;
-  }
-  @else {
-    @include sw-flex-grid;
-  }
-  @include sw-typography;
-  @include sw-forms;
-  @include sw-button;
-  @include sw-accordion;
-  @include sw-accordion-menu;
-  @include sw-badge;
-  @include sw-breadcrumbs;
-  @include sw-button-group;
-  @include sw-callout;
-  @include sw-card;
-  @include sw-close-button;
-  @include sw-menu;
-  @include sw-menu-icon;
-  @include sw-drilldown-menu;
-  @include sw-dropdown;
-  @include sw-dropdown-menu;
-  @include sw-responsive-embed;
-  @include sw-label;
-  @include sw-media-object;
-  @include sw-off-canvas;
-  @include sw-orbit;
-  @include sw-pagination;
-  @include sw-progress-bar;
-  @include sw-slider;
-  @include sw-sticky;
-  @include sw-reveal;
-  @include sw-switch;
-  @include sw-table;
-  @include sw-tabs;
-  @include sw-thumbnail;
-  @include sw-title-bar;
-  @include sw-tooltip;
-  @include sw-top-bar;
-  @include sw-visibility-classes;
-  @include sw-float-classes;
+ background: $color1; /* Old browsers */
 
-  @if $flex {
-    @include sw-flex-classes;
+ background-image: -moz-linear-gradient( 11deg, $color1 0%, $color2 100%);
+ background-image: -webkit-linear-gradient( 11deg, $color1 0%, $color2 100%);
+ background-image: -ms-linear-gradient( 11deg, $color1 0%, $color2 100%);
+
+ @if $hover {
+  &:hover {
+   $color1_hover: scale_color(nth(map-get($sw-gradient-palette, $name), 1), $button-background-hover-lightness * 1.5);
+   $color2_hover: scale_color(nth(map-get($sw-gradient-palette, $name), 2), $button-background-hover-lightness * 1.5);
+   background: $color1_hover; /* Old browsers */
+
+   background-image: -moz-linear-gradient( 11deg, $color1_hover 0%, $color2_hover 100%);
+   background-image: -webkit-linear-gradient( 11deg, $color1_hover 0%, $color2_hover 100%);
+   background-image: -ms-linear-gradient( 11deg, $color1_hover 0%, $color2_hover 100%);
   }
+ }
 }

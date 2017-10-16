@@ -1,0 +1,22 @@
+{
+  "name": "sudo-web-framework",
+  "version": "0.1.0",
+  "description": "Web Framework for Sudo – Sits ontop of Foundation from Zurb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudouc/sudo-web-framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudouc/sudo-web-framework/issues"
+  },
+  "homepage": "https://github.com/sudouc/sudo-web-framework#readme",
+  "dependencies": {
+    "foundation-sites": "^6.4.4-rc1"
+  }
+}

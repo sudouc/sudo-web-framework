@@ -1,30 +1,14 @@
-// sw for Sites by Sudo
-// sudo.org.au
+// Foundation for Sites by ZURB
+// foundation.zurb.com
 // Licensed under MIT Open Source
 
 ////
 /// @group typography
 ////
 
-// External Fonts
+// Base typography styles (tags only)
 @import 'fonts';
 
-// Base typography styles (tags only)
-@import 'base';
-
-// Typography helper classes (classes only)
-@import 'helpers';
-
-// Text alignment classes
-@import 'alignment';
-
-// Print styles
-@import 'print';
-
-@mixin sw-typography {
-  @include sw-fonts;
-  @include sw-typography-base;
-  @include sw-typography-helpers;
-  @include sw-text-alignment;
-  @include sw-print-styles;
+@mixin foundation-typography {
+  @include sw-fonts();
 }
