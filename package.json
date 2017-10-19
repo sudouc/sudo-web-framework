@@ -1,10 +1,18 @@
 {
   "name": "sudo-web-framework",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Web Framework for Sudo – Sits ontop of Foundation from Zurb",
-  "main": "index.js",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sass": "^2.1.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "build": "gulp sass"
   },
   "repository": {
     "type": "git",
@@ -17,6 +25,7 @@
   },
   "homepage": "https://github.com/sudouc/sudo-web-framework#readme",
   "dependencies": {
-    "foundation-sites": "^6.4.4-rc1"
+    "foundation-sites": "^6.4.4-rc1",
+    "gulp-autoprefixer": "^3.1.0"
   }
 }

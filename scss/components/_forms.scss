@@ -1,0 +1,46 @@
+@mixin sudo-forms {
+  [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
+
+    &:focus {
+      border: none;
+      outline: none;
+      box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    }
+  }
+
+  .input-group-label {
+    position: relative;
+    background-color: #FFF;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
+  }
+  .input-group {
+
+    border-radius: $global-radius;
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
+    [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
+      box-shadow: none;
+    }
+    .input-group-label {
+      box-shadow: none;
+      &:last-child {
+        border-top-right-radius: $global-radius;
+        border-bottom-right-radius: $global-radius;
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 7px;
+          bottom: 7px;
+          width: 2px;
+          background: #f6f9fc;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@mixin sudo-callouts {
+  .callout {
+    display: block;
+    border: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+  }
+
+  a.callout {
+    display: block;
+    &:hover {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+      -webkit-box-shadow: 0px 3px 40px 0px rgba(20, 72, 96, 0.12), 0px 14px 40px 0px rgba(20, 72, 96, 0.12);
+      box-shadow: 0px 3px 40px 0px rgba(20, 72, 96, 0.12), 0px 14px 40px 0px rgba(20, 72, 96, 0.12);
+    }
+  }
+}

@@ -9,6 +9,6 @@
 // Base typography styles (tags only)
 @import 'fonts';
 
-@mixin foundation-typography {
+@mixin sudo-fonts {
   @include sw-fonts();
 }
