@@ -1,9 +1,24 @@
 @charset 'utf-8';
 
-// @import 'global';
+@import './settings/sudo_settings';
 @import 'foundation';
-
 @import 'sudoweb';
 
 @include foundation-everything();
+@include sudo-override();
 
+
+
+
+
+/*
+
+Order:
+- Settings
+- Sudo Settings
+- Foundation Import
+- Sudo Import
+- Foundation Everything Mixin
+- Sudo Override Mixin
+
+ */

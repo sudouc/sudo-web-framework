@@ -29,10 +29,10 @@
 // Global variables and styles
 @import './global';
 
-@include sudo-fonts;
-@include sudo-button;
-@include sudo-callouts;
-@include sudo-forms;
-
-
+@mixin sudo-override() {
+ @include sudo-fonts;
+ @include sudo-button;
+ @include sudo-callouts;
+ @include sudo-forms;
+}
 

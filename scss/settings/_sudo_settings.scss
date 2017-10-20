@@ -1,0 +1,62 @@
+@import 'util/util';
+
+$foundation-palette: (
+        primary: #7394fc,
+        secondary: #767676,
+        success: #6fd487,
+        warning: #ffae00,
+        alert: #f15034,
+);
+$header-color: #32325d;
+$header-small-font-color: #afbec9;
+$body-font-color: #6b7c93;
+$white: #FFF;
+
+$sudo-gradient-palette: (
+        "fanta": (
+                rgb(250,101,47),
+                rgb(240,55,89)
+        ),
+        "sudo": (
+                #8b53ff,
+                #4da4ff
+        ),
+        "lime": (
+                #8ebd39,
+                #2e8c12
+        ),
+        "sudobg": (
+                rgba(145,26,255,1),
+                rgba(61,193,255,1)
+        )
+);
+
+@include add-foundation-colors;
+
+$global-radius: 5px;
+$font-directory: '/assets/fonts/';
+$body-font-family: 'Camphor', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$header-font-family: 'Circular Std', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+
+$button-font-family: inherit;
+$button-padding: 0.85em 1em;
+$button-fill: solid;
+$button-background: $primary-color;
+$button-background-hover: scale-color($button-background, $lightness: 15%);
+$button-color: $white;
+$button-color-alt: #7291ff;
+$button-radius: $global-radius;
+$button-hollow-border-width: 1px;
+$button-sizes: (
+        tiny: 0.6rem,
+        small: 0.75rem,
+        default: 0.9rem,
+        large: 1.25rem,
+);
+
+$button-opacity-disabled: 0.25;
+$button-background-hover-lightness: 15%;
+$button-hollow-hover-lightness: -50%;
+$button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+
+$label-color-alt: $white;
