@@ -1,6 +1,6 @@
 {
   "name": "sudo-web-framework",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Web Framework for Sudo – Sits ontop of Foundation from Zurb",
   "main": "gulpfile.js",
   "devDependencies": {
