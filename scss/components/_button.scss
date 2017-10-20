@@ -1,5 +1,9 @@
+
+$button-gradient-palette: $sudo-gradient-palette !default;
+
 @mixin sudo-button {
   .button {
+    border: none;
     text-transform: uppercase;
     -webkit-transition: all .15s ease;
     transition: all .15s ease;
@@ -7,10 +11,22 @@
     font-weight: 600;
     font-family: $header-font-family;
 
+    @each $name, $color in $button-gradient-palette {
+      &.#{$name} {
+        @include sw-gradient($name);
+      }
+    }
+    
+    &.white {
+      background-color: #fff;
+      color: #6b7c93;
+    }
+
     &:hover {
       -webkit-transform: translateY(-2px);
       transform: translateY(-2px);
       box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     }
   }
+
 }
