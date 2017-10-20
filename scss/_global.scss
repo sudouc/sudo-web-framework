@@ -30,7 +30,7 @@ $sudo-gradient-palette: (
         )
 ) !default;
 
-@include add-foundation-colors !default;
+@include add-foundation-colors;
 
 $global-radius: 5px !default;
 $font-directory: '/assets/fonts/' !default;
