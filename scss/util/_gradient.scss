@@ -1,0 +1,22 @@
+@mixin sw-gradient($name, $hover: true) {
+  $color1: nth(map-get($sw-gradient-palette, $name), 1);
+  $color2: nth(map-get($sw-gradient-palette, $name), 2);
+
+  background: $color1; /* Old browsers */
+
+  background-image: -moz-linear-gradient( 11deg, $color1 0%, $color2 100%);
+  background-image: -webkit-linear-gradient( 11deg, $color1 0%, $color2 100%);
+  background-image: -ms-linear-gradient( 11deg, $color1 0%, $color2 100%);
+
+  @if $hover {
+    &:hover {
+      $color1_hover: scale_color(nth(map-get($sw-gradient-palette, $name), 1), $button-background-hover-lightness * 1.5);
+      $color2_hover: scale_color(nth(map-get($sw-gradient-palette, $name), 2), $button-background-hover-lightness * 1.5);
+      background: $color1_hover; /* Old browsers */
+
+      background-image: -moz-linear-gradient( 11deg, $color1_hover 0%, $color2_hover 100%);
+      background-image: -webkit-linear-gradient( 11deg, $color1_hover 0%, $color2_hover 100%);
+      background-image: -ms-linear-gradient( 11deg, $color1_hover 0%, $color2_hover 100%);
+    }
+  }
+}
