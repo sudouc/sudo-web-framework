@@ -4,7 +4,27 @@
     border: 0;
     -webkit-transition: all .15s ease;
     transition: all .15s ease;
-    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+    box-shadow: 0 15px 35px rgba(50,50,93,.05), 0 5px 15px rgba(0,0,0,.07);
+
+    & > :last-child {
+      margin-bottom: inherit;
+    }
+
+    &.border-top {
+      border-top: 3px solid $primary-color;
+
+      @each $name, $color in $foundation-palette {
+        &.#{$name} {
+          border-color: $color;
+        }
+      }
+    }
+
+    @each $name, $color in $foundation-palette {
+      &.#{$name} {
+        color: (darken($color, 20), -20);
+      }
+    }
   }
 
   a.callout {

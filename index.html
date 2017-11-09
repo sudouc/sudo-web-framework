@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
+
 <div class="grid-container">
     <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
@@ -31,6 +32,7 @@
             <h4>Once you've exhausted <small>the fun in this document</small></h4>
             <h5>Once you've exhausted <small>the fun in this document</small></h5>
             <h6>Once you've exhausted <small>the fun in this document</small></h6>
+            <pre><code>&lt;?php echo 'amazing'; ?&gt;</code></pre>
             <hr>
             <div class="grid-x grid-padding-x">
                 <div class="large-4 medium-4 cell">
@@ -110,7 +112,7 @@
                 <div class="grid-x grid-padding-x">
                     <div class="large-12 cell">
                         <label>Input Label</label>
-                        <input type="text" placeholder="large-12.cell" />
+                        <input type="text" name="email" placeholder="large-12.cell" />
                     </div>
                 </div>
                 <div class="grid-x grid-padding-x">
@@ -171,6 +173,7 @@
                 <a href="#" class="fanta button">Fanta Btn</a><br/>
                 <a href="#" class="lime button">Lime Btn</a><br/>
                 <a href="#" class="white button">White Btn</a><br/>
+                <a href="#" class="white success button">White Success Btn</a><br/>
                 <a href="#" class="success button">Success Btn</a><br/>
                 <a href="#" class="alert button">Alert Btn</a><br/>
                 <a href="#" class="secondary button">Secondary Btn</a></p>
@@ -321,6 +324,10 @@
 <script src="/node_modules/jquery/dist/jquery.min.js"></script>
 <script src="/node_modules/what-input/dist/what-input.min.js"></script>
 <script src="/node_modules/foundation-sites/dist/js/foundation.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/sunburst.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
 <script src="js/app.js"></script>
 </body>
 </html>

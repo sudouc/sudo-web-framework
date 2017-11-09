@@ -14,12 +14,32 @@ $button-gradient-palette: $sudo-gradient-palette !default;
     @each $name, $color in $button-gradient-palette {
       &.#{$name} {
         @include sw-gradient($name);
+
+        &:hover {
+          @include sw-gradient($name, true);
+        }
       }
     }
     
     &.white {
       background-color: #fff;
-      color: #6b7c93;
+      color: $primary-color;
+
+      &:hover {
+        color: lighten($primary-color, 5);
+        background-color: #fff;
+      }
+
+      @each $name, $color in $foundation-palette {
+        &.#{$name} {
+          color: #{$color};
+
+          &:hover {
+            color: lighten($color, 5);
+            background-color: #fff;
+          }
+        }
+      }
     }
 
     &:hover {
