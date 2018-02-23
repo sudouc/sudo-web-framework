@@ -6,9 +6,9 @@
     transition: all .15s ease;
     box-shadow: 0 15px 35px rgba(50,50,93,.05), 0 5px 15px rgba(0,0,0,.07);
 
-    & > :last-child {
-      margin-bottom: inherit;
-    }
+    //& > :last-child {
+    //  margin-bottom: inherit;
+    //}
 
     &.border-top {
       border-top: 3px solid $primary-color;
